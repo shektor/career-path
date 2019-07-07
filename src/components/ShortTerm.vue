@@ -4,7 +4,7 @@
     <h1>{{ career.name }}</h1>
     <SummaryItems
       :items="[
-        'Salary +' + Math.round((career.details.meanSalary / currentSalary) * 100 - 100) + '%',
+        'Salary +' + salaryDifference + '%',
         career.details.demandLevel + ' market demand',
         career.details.experienceYears + ' years experience'
       ]"
@@ -13,15 +13,22 @@
 </template>
 
 <script>
-  import SummaryItems from './SummaryItems.vue'
+import SummaryItems from './SummaryItems.vue'
 
-  export default {
-    components: {
-      SummaryItems
-    },
-    props: {
-      currentSalary: Object,
-      career: Object
+export default {
+  components: {
+    SummaryItems
+  },
+  props: {
+    currentSalary: Number,
+    career: Object
+  },
+  computed: {
+    salaryDifference() {
+      let percDiff = (this.career.details.meanSalary / this.currentSalary)
+      let formattedDiff = Math.round(percDiff * 100 - 100)
+      return formattedDiff
     }
   }
+}
 </script>
