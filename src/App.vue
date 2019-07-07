@@ -23,11 +23,11 @@ export default {
   },
   data() {
     return {
-      report: []
+      report: {}
     }
   },
   mounted: function() {
-    fetch('http://localhost:8080/data/report.json')
+    fetch('./data/report.json')
       .then((response) => {
         return response.json()
       })
