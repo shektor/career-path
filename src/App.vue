@@ -20,6 +20,20 @@ export default {
     ShortTerm,
     LongTerm,
     Share
+  },
+  data() {
+    return {
+      report: []
+    }
+  },
+  mounted: function() {
+    fetch('http://localhost:8080/data/report.json')
+      .then((response) => {
+        return response.json()
+      })
+      .then((data) => {
+        this.report = data
+      })
   }
 }
 </script>
