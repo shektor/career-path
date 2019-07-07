@@ -9,7 +9,10 @@
         experience: report.experience
         }"
     />
-    <ShortTerm />
+    <ShortTerm
+      :currentSalary="report.currentRoleDetails.salaryMean"
+      :career="report.careerPath[0]"
+    />
     <LongTerm />
     <Share />
   </div>
