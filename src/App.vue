@@ -1,17 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Profile />
+    <ShortTerm />
+    <LongTerm />
+    <Share />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Profile from './components/Profile.vue'
+import ShortTerm from './components/ShortTerm.vue'
+import LongTerm from './components/LongTerm.vue'
+import Share from './components/Share.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Profile,
+    ShortTerm,
+    LongTerm,
+    Share
   }
 }
 </script>
