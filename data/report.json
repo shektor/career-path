@@ -1,0 +1,378 @@
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "education": "Bachelor's Degree",
+  "experience": "Less than 3",
+  "currentRole": "Software Developer / Engineer",
+  "currentRoleDetails": {
+    "id": 124,
+    "name": "Software Developer / Engineer",
+    "description": "Designs or improves computer software.  Oversees the entire software development process.  Analyzes customer or user needs, designs programs, writes code or instructs computer programmers, tests design, and documents programs. May assist with upgrades or maintenance. May specialize in the design of computer applications or computer systems.",
+    "salaryMean": 95058.16
+  },
+  "careerPath": [
+    {
+      "name": "Senior Software Developer / Engineer",
+      "selectedSkills": [
+        "Software Engineering",
+        "Software Development",
+        "Problem Solving",
+        "JavaScript",
+        "Writing",
+        "SQL",
+        "Troubleshooting",
+        "Scrum",
+        ".NET",
+        "Test Driven Development (TDD)",
+        "Visual Studio",
+        "PostgreSQL",
+        "Extensible Markup Language (XML)",
+        "UNIX"
+      ],
+      "details": {
+        "id": 120,
+        "name": "Senior Software Developer / Engineer",
+        "description": "Designs or improves computer software. Uses experience and deep understanding of computer language to manage aspects of complex projects. May mentor junior Software Developer/Engineers. Analyzes customer or user needs, designs programs, writes code or instructs computer programmers, tests design, and documents programs. May assist with upgrades or maintenance.",
+        "experienceYears": 5,
+        "meanSalary": 109374.97,
+        "demandLevel": "High",
+        "allSkills": {
+          "baselineSkills": [
+            {
+              "name": "Communication Skills",
+              "description": "The ability to convey information to another effectively and efficiently.",
+              "count": 21135
+            },
+            {
+              "name": "Teamwork / Collaboration",
+              "description": "Experience working in collaborative efforts with a team to achieve a common goal or to complete a task in the most effective and efficient way.",
+              "count": 17209
+            },
+            {
+              "name": "Problem Solving",
+              "description": "Problem solving consists of using generic or ad hoc methods, in an orderly manner, for finding solutions to problems.",
+              "count": 13674
+            },
+            {
+              "name": "Troubleshooting",
+              "description": "Troubleshooting or dpanneuring is a form of problem solving, often applied to repair failed products or processes on a machine or a system.",
+              "count": 10736
+            },
+            {
+              "name": "Writing",
+              "description": "Experience expressing business messages effectively in written form. This may include planning drafting and revising as necessary.",
+              "count": 10657
+            }
+          ],
+          "specializedSkills": [
+            {
+              "name": "Software Engineering",
+              "description": "Working experience with the application of engineering to the development of software in a systematic method.",
+              "count": 44937
+            },
+            {
+              "name": "Software Development",
+              "description": "Software development is the process of computer programming, documenting, testing, and bug fixing involved in creating and maintaining applications and frameworks resulting in a software product.",
+              "count": 33988
+            },
+            {
+              "name": "Java",
+              "description": "Java is a set of computer software and specifications developed by Sun Microsystems, which was later acquired by the Oracle Corporation, that provides a system for developing application software and deploying it in a cross-platform computing environment.",
+              "count": 26077
+            },
+            {
+              "name": "SQL",
+              "description": "SQL ( ESS-kew-EL or SEE-kwl, Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS).",
+              "count": 18368
+            },
+            {
+              "name": "JavaScript",
+              "description": "JavaScript (), often abbreviated as JS, is a high-level, dynamic, weakly typed, object-based, multi-paradigm, and interpreted client-side programming language.",
+              "count": 17672
+            }
+          ],
+          "definingSkills": [
+            {
+              "name": "Software Engineering",
+              "description": "Working experience with the application of engineering to the development of software in a systematic method.",
+              "count": 44937
+            },
+            {
+              "name": "Software Development",
+              "description": "Software development is the process of computer programming, documenting, testing, and bug fixing involved in creating and maintaining applications and frameworks resulting in a software product.",
+              "count": 33988
+            },
+            {
+              "name": "Java",
+              "description": "Java is a set of computer software and specifications developed by Sun Microsystems, which was later acquired by the Oracle Corporation, that provides a system for developing application software and deploying it in a cross-platform computing environment.",
+              "count": 26077
+            },
+            {
+              "name": "SQL",
+              "description": "SQL ( ESS-kew-EL or SEE-kwl, Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS).",
+              "count": 18368
+            },
+            {
+              "name": "JavaScript",
+              "description": "JavaScript (), often abbreviated as JS, is a high-level, dynamic, weakly typed, object-based, multi-paradigm, and interpreted client-side programming language.",
+              "count": 17672
+            }
+          ],
+          "necessarySkills": [
+            {
+              "name": "Scrum",
+              "description": "Scrum is a framework for managing software development.",
+              "count": 9006
+            },
+            {
+              "name": "Oracle",
+              "description": "Oracle Database (commonly referred to as Oracle RDBMS or simply as Oracle) is an object-relational database management system produced and marketed by Oracle Corporation.",
+              "count": 7253
+            },
+            {
+              "name": ".NET",
+              "description": ".NET Framework (pronounced dot net) is a software framework developed by Microsoft that runs primarily on Microsoft Windows.",
+              "count": 7109
+            },
+            {
+              "name": "Extensible Markup Language (XML)",
+              "description": "In computing, Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.",
+              "count": 6365
+            },
+            {
+              "name": "UNIX",
+              "description": "Unix (; trademarked as UNIX) is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, developed starting in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others.",
+              "count": 6293
+            }
+          ],
+          "distinguishingSkills": [
+            {
+              "name": "Test Driven Development (TDD)",
+              "description": "Working experience of Test Driven Development (TDD), which is a software development process that relies on the repetition of a very short development cycle: first the developer writes an (initially failing) automated test case that defines a desired improvement or new function, then produces the minimum amount of code to pass that test, and finally refactors the new code to acceptable standards.",
+              "count": 3884
+            },
+            {
+              "name": "PERL Scripting Language",
+              "description": "Working experience of PERL Scripting Language, which is a family of high-level, general-purpose, interpreted, dynamic programming languages.",
+              "count": 3647
+            },
+            {
+              "name": "Visual Studio",
+              "description": "Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft.",
+              "count": 3399
+            },
+            {
+              "name": "PostgreSQL",
+              "description": "PostgreSQL, often simply Postgres, is an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards compliance.",
+              "count": 3375
+            },
+            {
+              "name": "Ruby",
+              "description": "Experience working with the Ruby programming language, which is a dynamic, interpreted, reflective, object-oriented, general-purpose programming language.",
+              "count": 3225
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Chief Information Officer",
+      "selectedSkills": [
+        "Problem Solving",
+        "Information Technology Industry Knowledge",
+        "Project Management",
+        "Planning",
+        "Customer Service",
+        "Telecommunications"
+      ],
+      "details": {
+        "id": 37,
+        "name": "Chief Information Officer",
+        "description": "Responsible for all aspects of information technology within a business or organization, with a focus on making the data available for an organization to function. Develops strategies to improve the efficiency of technological initiatives. Oversees the development and testing of new programs developed specifically for the business or organization.",
+        "experienceYears": 6,
+        "salaryMean": 128159.81,
+        "demandLevel": "Low",
+        "allSkills": {
+          "baselineSkills": [
+            {
+              "name": "Communication Skills",
+              "description": "The ability to convey information to another effectively and efficiently.",
+              "count": 852
+            },
+            {
+              "name": "Planning",
+              "description": "Working experience with the process of thinking about and organizing the activities required to achieve desired goals.",
+              "count": 773
+            },
+            {
+              "name": "Teamwork / Collaboration",
+              "description": "Experience working in collaborative efforts with a team to achieve a common goal or to complete a task in the most effective and efficient way.",
+              "count": 648
+            },
+            {
+              "name": "Problem Solving",
+              "description": "Problem solving consists of using generic or ad hoc methods, in an orderly manner, for finding solutions to problems.",
+              "count": 461
+            },
+            {
+              "name": "Building Effective Relationships",
+              "description": "Building relationships is about your ability to identify and initiate working relationships and to develop and maintain them in a way that is of mutual benefit to both yourself and the other party. Good relationships are the key to getting things done and are essential when your success is dependent on others.",
+              "count": 334
+            }
+          ],
+          "specializedSkills": [
+            {
+              "name": "Budgeting",
+              "description": "Experience planning how the financial resources of a business or department are to be allocated during the next business period.",
+              "count": 778
+            },
+            {
+              "name": "Project Management",
+              "description": "Project management is the discipline of initiating, planning, executing, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria.",
+              "count": 611
+            },
+            {
+              "name": "Information Systems",
+              "description": "An information system (IS) is an organized system for the collection, organization, storage and communication of information.",
+              "count": 466
+            },
+            {
+              "name": "Strategic Planning",
+              "description": "Strategic planning is an organization's process of defining its strategy, or direction, and making decisions on allocating its resources to pursue this strategy.",
+              "count": 394
+            },
+            {
+              "name": "Business Process",
+              "description": "A business process or business method is a collection of related, structured activities or tasks that produce a specific service or product (serve a particular goal) for a particular customer or customers.",
+              "count": 294
+            }
+          ],
+          "definingSkills": [
+            {
+              "name": "Budgeting",
+              "description": "Experience planning how the financial resources of a business or department are to be allocated during the next business period.",
+              "count": 778
+            },
+            {
+              "name": "Project Management",
+              "description": "Project management is the discipline of initiating, planning, executing, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria.",
+              "count": 611
+            },
+            {
+              "name": "Information Systems",
+              "description": "An information system (IS) is an organized system for the collection, organization, storage and communication of information.",
+              "count": 466
+            },
+            {
+              "name": "Strategic Planning",
+              "description": "Strategic planning is an organization's process of defining its strategy, or direction, and making decisions on allocating its resources to pursue this strategy.",
+              "count": 394
+            },
+            {
+              "name": "Information Security",
+              "description": "Information security, sometimes shortened to InfoSec, is the practice of preventing unauthorized access, use, disclosure, disruption, modification, inspection, recording or destruction of information.",
+              "count": 211
+            }
+          ],
+          "necessarySkills": [
+            {
+              "name": "Business Process",
+              "description": "A business process or business method is a collection of related, structured activities or tasks that produce a specific service or product (serve a particular goal) for a particular customer or customers.",
+              "count": 294
+            },
+            {
+              "name": "Information Technology Industry Knowledge",
+              "description": "Knowledge of the big picture of the information technology industry, including the competitive position of major companies, and a thorough understanding all the issues related to the industry sector and the forces and factors impacting it.",
+              "count": 292
+            },
+            {
+              "name": "Staff Management",
+              "description": "Working experience with the management of subordinates in an organization.",
+              "count": 286
+            },
+            {
+              "name": "Telecommunications",
+              "description": "Telecommunication is the transmission of signs, signals, messages, words, writings, images and sounds or intelligence of any nature by wire, radio, optical or other electromagnetic systems.",
+              "count": 211
+            },
+            {
+              "name": "Customer Service",
+              "description": "Working experience with the provision of service to customers before, during and after a purchase.",
+              "count": 199
+            }
+          ],
+          "distinguishingSkills": [
+            {
+              "name": "Financial Management",
+              "description": "Financial management refers to the efficient and effective management of money (funds) in such a manner as to accomplish the objectives of the organization.",
+              "count": 101
+            },
+            {
+              "name": "Liquidity Risk",
+              "description": "Working experience of Liquidity Risk. Liquidity risk is the risk stemming from the lack of marketability of an investment that cannot be bought or sold quickly enough to prevent or minimize a loss. With liquidity risk, typically reflected in unusually wide bid-ask spreads or large price movements, the rule of thumb is that the smaller the size of the security or its issuer, the larger the liquidity risk",
+              "count": 97
+            },
+            {
+              "name": "Stakeholder Management",
+              "description": "Working experience of Stakeholder Management, which is a critical component to the successful delivery of any project, programme or activity. A stakeholder is any individual, group or organization that can affect, be affected by, or perceive itself to be affected by a programme. Stakeholder management creates positive relationships with stakeholders through the appropriate management of their expectations and agreed objectives.",
+              "count": 93
+            },
+            {
+              "name": "Policy Development",
+              "description": "The decision process by which individuals, groups or institutions establish policies pertaining to plans, programs or procedures.",
+              "count": 84
+            },
+            {
+              "name": "ITIL",
+              "description": "ITIL, formally an acronym for Information Technology Infrastructure Library, is a set of detailed practices for IT service management (ITSM) that focuses on aligning IT services with the needs of business.",
+              "count": 84
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "programs": [
+    {
+      "Title": "Master of Computer Science",
+      "CoveredSkills": [
+        { "Title": "Budgeting", "Id": "a3w1Q0000002OydQAE" },
+        { "Title": "Business Process", "Id": "a3w1Q0000002OyjQAE" },
+        { "Title": "Communication Skills", "Id": "a3w36000000kHqlAAE" },
+        { "Title": "Information Security", "Id": "a3w36000000kHhYAAU" },
+        { "Title": "Information Systems", "Id": "a3w1Q0000002P9vQAE" },
+        { "Title": "ITIL", "Id": "a3w1Q0000002PA5QAM" },
+        { "Title": "Policy Development", "Id": "a3w1Q0000002PAAQA2" },
+        { "Title": "Staff Management", "Id": "a3w1Q0000002PAKQA2" },
+        { "Title": "Stakeholder Management", "Id": "a3w1Q0000002PABQA2" },
+        { "Title": "Teamwork / Collaboration", "Id": "a3w1Q0000002OybQAE" }
+      ],
+      "MasterTitle": "Master of Computer Science",
+      "Link": "https://online.stanford.edu/programs/computer-science-ms-degree",
+      "Id": "a0p1Q00000HvfvdQAB",
+      "Description": "A master’s degree in Computer Science is intended as a terminal professional degree. Earning this degree indicates two things to prospective employers. First, it guarantees that you have a broad grounding in computer science as a discipline. Second, it certifies that you have studied a particular area in detail and thus have additional depth in a particular specialty. "
+    },
+    {
+      "Title": "Master of Business Administration - Fall 2018 Intake",
+      "CoveredSkills": [
+        { "Title": "Financial Management", "Id": "a3w36000000kHf6AAE" },
+        { "Title": "Communication Skills", "Id": "a3w36000000kHqlAAE" },
+        { "Title": "Budgeting", "Id": "a3w1Q0000002OydQAE" },
+        {
+          "Title": "Building Effective Relationships",
+          "Id": "a3w36000000kHpqAAE"
+        },
+        { "Title": "Business Process", "Id": "a3w1Q0000002OyjQAE" },
+        { "Title": "Liquidity Risk", "Id": "a3w1Q0000002PA1QAM" },
+        { "Title": "Staff Management", "Id": "a3w1Q0000002PAKQA2" },
+        { "Title": "Stakeholder Management", "Id": "a3w1Q0000002PABQA2" },
+        { "Title": "Strategic Planning", "Id": "a3w1Q0000002OycQAE" },
+        { "Title": "Teamwork / Collaboration", "Id": "a3w1Q0000002OybQAE" }
+      ],
+      "MasterTitle": "Master of Business Administration",
+      "Link": "http://www.hult.edu/en/mba/one-year-mba/",
+      "Id": "a0p3600000CZ990AAD",
+      "Description": "Master essential business concepts in a global context, learn to lead international teams, and customize your to suit your personal goals with Hult's award-winning MBA. Addressing key areas including marketing, finance, operations, strategy, analytics, and leadership this degree is designed so that you'll continuously apply business knowledge as you acquire it and future-proof your career.\r\n\r\n40% of S&P 500 CEOs have an MBA."
+    }
+  ]
+}
