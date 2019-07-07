@@ -1,6 +1,14 @@
 <template>
   <div id="app">
-    <Profile />
+    <Profile
+      :personalDetails="{
+        firstName: report.firstName,
+        lastName: report.lastName,
+        currentRole: report.currentRole,
+        education: report.education,
+        experience: report.experience
+        }"
+    />
     <ShortTerm />
     <LongTerm />
     <Share />
