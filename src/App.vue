@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Profile
+    <Profile v-if="report"
       :personalDetails="{
         firstName: report.firstName,
         lastName: report.lastName,
@@ -9,7 +9,7 @@
         experience: report.experience
         }"
     />
-    <ShortTerm
+    <ShortTerm v-if="report"
       :currentSalary="report.currentRoleDetails.salaryMean"
       :career="report.careerPath[0]"
     />
@@ -34,11 +34,11 @@ export default {
   },
   data() {
     return {
-      report: {}
+      report: 0
     }
   },
   mounted: function() {
-    fetch('./data/report.json')
+    fetch('/data/report.json')
       .then((response) => {
         return response.json()
       })
