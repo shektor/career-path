@@ -1,7 +1,7 @@
 <template>
-  <span>
-    SalaryIcon {{ formatDifference }}%
-  </span>
+  <div :class="[formatDifference > 0 ? 'positive' : 'negative']">
+    SalaryIcon {{ addSymbol }}{{ formatDifference }}%
+  </div>
 </template>
 
 <script>
@@ -16,8 +16,15 @@ export default {
       return percDiff
     },
     formatDifference () {
-      let percDiff = Math.round(this.calculateDifference * 100 - 100)
-      return percDiff
+      let wholeDiff = Math.round(this.calculateDifference * 100 - 100)
+      return wholeDiff
+    },
+    addSymbol() {
+      if (this.formatDifference > 0) {
+        return '+'
+      } else {
+        return '-'
+      }
     }
   }
 }

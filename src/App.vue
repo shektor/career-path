@@ -58,4 +58,12 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.positive {
+  color: green
+}
+
+.negative {
+  color: red
+}
 </style>
