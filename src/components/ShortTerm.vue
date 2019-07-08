@@ -2,11 +2,11 @@
   <div>
     Your short term goal
     <h1>{{ career.name }}</h1>
-    <SummaryItems
+    <SummaryItems v-if="currentSalary"
       :items="{
         salary: {
-          current: career.details.meanSalary,
-          goal: currentSalary
+          current: currentSalary,
+          goal: career.details.meanSalary
         },
         demandLevel: career.details.demandLevel,
         experienceYears: career.details.experienceYears
@@ -25,13 +25,6 @@ export default {
   props: {
     currentSalary: Number,
     career: Object
-  },
-  computed: {
-    salaryDifference() {
-      let percDiff = (this.career.details.meanSalary / this.currentSalary)
-      let formattedDiff = Math.round(percDiff * 100 - 100)
-      return formattedDiff
-    }
   }
 }
 </script>
