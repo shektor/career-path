@@ -2,11 +2,11 @@
   <div>
     <h1>{{ personalDetails.firstName }} {{ personalDetails.lastName }}</h1>
     <SummaryItems
-      :items="[
-        personalDetails.currentRole,
-        personalDetails.education,
-        personalDetails.experience + ' years experience'
-      ]"
+      :items = "{
+        currentRole: personalDetails.currentRole,
+        education: personalDetails.education,
+        experienceYears: personalDetails.experience
+      }"
     />
   </div>
 </template>

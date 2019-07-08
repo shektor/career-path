@@ -1,5 +1,7 @@
 <template>
   <div>
+    <p> {{ items.currentRole }} </p>
+    <p> {{ items.education }} </p>
     <Salary v-if="items.salary"
       :current = "items.salary.current"
       :goal = "items.salary.goal"
