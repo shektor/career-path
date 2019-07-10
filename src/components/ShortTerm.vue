@@ -2,7 +2,7 @@
   <div>
     Your short term goal
     <h1>{{ career.name }}</h1>
-    <SummaryItems v-if="currentSalary"
+    <SummaryItems
       :items="{
         salary: {
           current: currentSalary,
