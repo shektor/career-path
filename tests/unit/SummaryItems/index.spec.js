@@ -1,6 +1,6 @@
 import { shallowMount } from '@vue/test-utils'
-import SummaryItems from '@/components/SummaryItems.vue'
-import Salary from '@/components/Salary.vue'
+import SummaryItems from '@/components/SummaryItems'
+import SalaryItem from '@/components/SummaryItems/SalaryItem.vue'
 
 let wrapper
 
@@ -9,7 +9,7 @@ beforeEach(() => {
     propsData: {
       items : [
         {
-          name: 'Salary',
+          name: 'SalaryItem',
           props: {
             current: 95058.16,
             goal: 109374.97
@@ -22,11 +22,11 @@ beforeEach(() => {
 
 describe('SummaryItems.vue', () => {
   it('renders Salary child component', () => {
-    expect(wrapper.find(Salary).exists()).toBe(true)
+    expect(wrapper.find(SalaryItem).exists()).toBe(true)
   })
 
   it('passes "current" prop to Salary component', () => {
-    const salaryWrapper = wrapper.find(Salary)
+    const salaryWrapper = wrapper.find(SalaryItem)
     expect(salaryWrapper.props().current).toBe(95058.16)
   })
 })

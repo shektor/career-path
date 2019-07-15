@@ -5,7 +5,7 @@
     <SummaryItems
       :items = "[
         {
-          name: 'Salary',
+          name: 'SalaryItem',
           props: {
             current: currentSalary,
             goal: career.details.meanSalary
@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import SummaryItems from './SummaryItems.vue'
+import SummaryItems from '@/components/SummaryItems'
 
 export default {
   components: {
