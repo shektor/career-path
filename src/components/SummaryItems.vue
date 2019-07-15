@@ -1,13 +1,8 @@
 <template>
   <div>
-    <p> {{ items.currentRole }} </p>
-    <p> {{ items.education }} </p>
-    <Salary v-if="items.salary"
-      :current = "items.salary.current"
-      :goal = "items.salary.goal"
-    />
-    <p> {{ items.demandLevel }} </p>
-    <p> {{ items.experienceYears }} </p>
+    <div v-for="(item, index) in items" :key="index">
+      <component :is="item.name" v-bind="item.props"></component>
+    </div>
   </div>
 </template>
 
@@ -16,7 +11,7 @@ import Salary from './Salary.vue'
 
 export default {
   props: {
-    items: Object
+    items: Array
   },
   components: {
     Salary
