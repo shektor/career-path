@@ -7,14 +7,16 @@
 </template>
 
 <script>
-import SalaryItem from './SalaryItem.vue'
+import ItemBasic from './ItemBasic.vue'
+import ItemSalary from './ItemSalary.vue'
 
 export default {
   props: {
     items: Array
   },
   components: {
-    SalaryItem
+    ItemBasic,
+    ItemSalary
   }
 }
 </script>

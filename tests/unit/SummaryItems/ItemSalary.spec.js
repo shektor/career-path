@@ -1,9 +1,9 @@
 import { mount } from '@vue/test-utils'
-import SalaryItem from '@/components/SummaryItems/SalaryItem.vue'
+import ItemSalary from '@/components/SummaryItems/ItemSalary.vue'
 
-describe('SalaryItem.vue', () => {
+describe('ItemSalary.vue', () => {
   it('renders a positive formatted salary difference', () => {
-    const wrapper = mount(SalaryItem, {
+    const wrapper = mount(ItemSalary, {
       propsData: {
         current: 95058.16,
         goal: 109374.97
@@ -14,7 +14,7 @@ describe('SalaryItem.vue', () => {
   })
 
   it('has the positive class when salary difference is positive', () => {
-    const wrapper = mount(SalaryItem, {
+    const wrapper = mount(ItemSalary, {
       propsData: {
         current: 95058.16,
         goal: 109374.97
@@ -25,7 +25,7 @@ describe('SalaryItem.vue', () => {
   })
 
   it('renders a negative formatted salary difference', () => {
-    const wrapper = mount(SalaryItem, {
+    const wrapper = mount(ItemSalary, {
       propsData: {
         current: 109374.97,
         goal: 95058.16
@@ -36,7 +36,7 @@ describe('SalaryItem.vue', () => {
   })
 
   it('has the negative class when salary difference is negative', () => {
-    const wrapper = mount(SalaryItem, {
+    const wrapper = mount(ItemSalary, {
       propsData: {
         current: 109374.97,
         goal: 95058.16

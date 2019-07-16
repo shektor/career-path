@@ -1,9 +1,9 @@
 import { mount } from '@vue/test-utils'
-import BasicItem from '@/components/SummaryItems/BasicItem.vue'
+import ItemBasic from '@/components/SummaryItems/ItemBasic.vue'
 
-describe('BasicItem.vue', () => {
+describe('ItemBasic.vue', () => {
   it('renders item prop', () => {
-    const wrapper = mount(BasicItem, {
+    const wrapper = mount(ItemBasic, {
       propsData: {
         item: 'Display this!'
       }
