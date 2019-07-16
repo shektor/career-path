@@ -2,8 +2,8 @@ import { shallowMount } from '@vue/test-utils'
 import flushPromises from 'flush-promises'
 
 import App from '@/App.vue'
-import Profile from '@/components/Profile.vue'
-import ShortTerm from '@/components/ShortTerm.vue'
+import CurrentProfile from '@/components/PathTimeline/CurrentProfile.vue'
+import ShortTerm from '@/components/PathTimeline/ShortTerm.vue'
 
 let wrapper, profileWrapper, shortTermWrapper, reportData
 
@@ -43,7 +43,7 @@ describe('App.vue', () => {
   it('passes prop data to Profile component', async () => {
     await flushPromises()
 
-    profileWrapper = wrapper.find(Profile)
+    profileWrapper = wrapper.find(CurrentProfile)
 
     expect(profileWrapper.props().personalDetails).toEqual({
       firstName: reportData.firstName,

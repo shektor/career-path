@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Profile v-if="report"
+    <CurrentProfile v-if="report"
       :personalDetails="{
         firstName: report.firstName,
         lastName: report.lastName,
@@ -14,23 +14,23 @@
       :career="report.careerPath[0]"
     />
     <LongTerm />
-    <Share />
+    <SharePath />
   </div>
 </template>
 
 <script>
-import Profile from './components/Profile.vue'
-import ShortTerm from './components/ShortTerm.vue'
-import LongTerm from './components/LongTerm.vue'
-import Share from './components/Share.vue'
+import CurrentProfile from '@/components/PathTimeline/CurrentProfile.vue'
+import ShortTerm from '@/components/PathTimeline/ShortTerm.vue'
+import LongTerm from '@/components/PathTimeline/LongTerm.vue'
+import SharePath from '@/components/PathTimeline/SharePath.vue'
 
 export default {
   name: 'app',
   components: {
-    Profile,
+    CurrentProfile,
     ShortTerm,
     LongTerm,
-    Share
+    SharePath
   },
   data() {
     return {
