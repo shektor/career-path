@@ -9,6 +9,8 @@
 <script>
 import ItemBasic from './ItemBasic.vue'
 import ItemSalary from './ItemSalary.vue'
+import ItemExperience from './ItemExperience.vue'
+import ItemDemand from './ItemDemand.vue'
 
 export default {
   props: {
@@ -16,7 +18,9 @@ export default {
   },
   components: {
     ItemBasic,
-    ItemSalary
+    ItemSalary,
+    ItemExperience,
+    ItemDemand
   }
 }
 </script>

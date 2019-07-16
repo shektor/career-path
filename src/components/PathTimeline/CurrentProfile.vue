@@ -2,11 +2,26 @@
   <div>
     <h1>{{ personalDetails.firstName }} {{ personalDetails.lastName }}</h1>
     <SummaryItems
-      :items = "{
-        currentRole: personalDetails.currentRole,
-        education: personalDetails.education,
-        experienceYears: personalDetails.experience
-      }"
+      :items = "[
+        {
+          name: 'ItemBasic',
+          props: {
+            item: personalDetails.currentRole
+          }
+        },
+        {
+          name: 'ItemBasic',
+          props: {
+            item: personalDetails.education
+          }
+        },
+        {
+          name: 'ItemExperience',
+          props: {
+            experience: `${personalDetails.experience}`
+          }
+        }
+      ]"
     />
   </div>
 </template>

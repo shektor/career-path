@@ -1,6 +1,6 @@
 <template>
   <div :class="[formatDifference > 0 ? 'positive' : 'negative']">
-    SalaryIcon {{ addSymbol }}{{ formatDifference }}%
+    Salary {{ addSymbol }}{{ formatDifference }}%
   </div>
 </template>
 

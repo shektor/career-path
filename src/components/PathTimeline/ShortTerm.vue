@@ -5,10 +5,22 @@
     <SummaryItems
       :items = "[
         {
-          name: 'SalaryItem',
+          name: 'ItemSalary',
           props: {
             current: currentSalary,
             goal: career.details.meanSalary
+          }
+        },
+        {
+          name: 'ItemDemand',
+          props: {
+            level: career.details.demandLevel
+          }
+        },
+        {
+          name: 'ItemExperience',
+          props: {
+            experience: `${career.details.experienceYears}`
           }
         }
       ]"
