@@ -1,30 +1,35 @@
 <template>
-  <div>
-    Your short term goal
-    <h1>{{ career.name }}</h1>
-    <SummaryItems
-      :items = "[
-        {
-          name: 'ItemSalary',
-          props: {
-            current: currentSalary,
-            goal: career.details.meanSalary
-          }
-        },
-        {
-          name: 'ItemDemand',
-          props: {
-            level: career.details.demandLevel
-          }
-        },
-        {
-          name: 'ItemExperience',
-          props: {
-            experience: `${career.details.experienceYears}`
-          }
-        }
-      ]"
-    />
+  <div class="mt-4">
+    <div class="ml-3">Your short term goal</div>
+    <b-card
+      :title="[career.name]"
+    >
+      <b-card-text>
+        <SummaryItems
+          :items = "[
+            {
+              name: 'ItemSalary',
+              props: {
+                current: currentSalary,
+                goal: career.details.meanSalary
+              }
+            },
+            {
+              name: 'ItemDemand',
+              props: {
+                level: career.details.demandLevel
+              }
+            },
+            {
+              name: 'ItemExperience',
+              props: {
+                experience: `${career.details.experienceYears}`
+              }
+            }
+          ]"
+        />
+      </b-card-text>
+    </b-card>
   </div>
 </template>
 
