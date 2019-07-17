@@ -1,20 +1,26 @@
 <template>
   <div id="app">
-    <CurrentProfile v-if="report"
-      :personalDetails="{
-        firstName: report.firstName,
-        lastName: report.lastName,
-        currentRole: report.currentRole,
-        education: report.education,
-        experience: report.experience
-        }"
-    />
-    <ShortTerm v-if="report"
-      :currentSalary="report.currentRoleDetails.salaryMean"
-      :career="report.careerPath[0]"
-    />
-    <LongTerm />
-    <SharePath />
+    <b-container>
+      <b-row align-h="center">
+        <b-col sm="12" md="10" lg="8" class="text-left">
+          <CurrentProfile v-if="report"
+            :personalDetails="{
+              firstName: report.firstName,
+              lastName: report.lastName,
+              currentRole: report.currentRole,
+              education: report.education,
+              experience: report.experience
+              }"
+          />
+          <ShortTerm v-if="report"
+            :currentSalary="report.currentRoleDetails.salaryMean"
+            :career="report.careerPath[0]"
+          />
+          <LongTerm />
+          <SharePath />
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
