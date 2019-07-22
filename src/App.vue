@@ -16,7 +16,10 @@
             :currentSalary="report.currentRoleDetails.salaryMean"
             :career="report.careerPath[0]"
           />
-          <LongTerm />
+          <LongTerm v-if="report"
+            :currentSalary="report.currentRoleDetails.salaryMean"
+            :career="report.careerPath[1]"
+          />
           <SharePath />
         </b-col>
       </b-row>
