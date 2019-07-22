@@ -1,5 +1,7 @@
-import { shallowMount } from '@vue/test-utils'
+import { shallowMount, createLocalVue } from '@vue/test-utils'
 import flushPromises from 'flush-promises'
+
+import BootstrapVue from 'bootstrap-vue'
 
 import App from '@/App.vue'
 import CurrentProfile from '@/components/PathTimeline/CurrentProfile.vue'
@@ -21,7 +23,7 @@ beforeEach(() => {
   }
 
   global.fetch = jest.fn().mockImplementation(() => {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
      resolve({
        json: function() {
          return reportData
@@ -30,7 +32,12 @@ beforeEach(() => {
     });
   });
 
-  wrapper = shallowMount(App)
+  const localVue = createLocalVue()
+  localVue.use(BootstrapVue)
+
+  wrapper = shallowMount(App, {
+    localVue
+  })
 })
 
 describe('App.vue', () => {
