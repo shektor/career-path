@@ -1,33 +1,36 @@
 <template>
   <div>
-    <b-card
-      :title="[personalDetails.firstName, ' ', personalDetails.lastName]"
-    >
-      <b-card-text>
-        <SummaryItems
-          :items = "[
-            {
-              name: 'ItemBasic',
-              props: {
-                item: personalDetails.currentRole
+    <div class="ml-3">{{ personalDetails.firstName }}'s career path</div>
+    <div class="mt-4">
+      <b-card
+        :title="[personalDetails.firstName, ' ', personalDetails.lastName]"
+      >
+        <b-card-text>
+          <SummaryItems
+            :items = "[
+              {
+                name: 'ItemBasic',
+                props: {
+                  item: personalDetails.currentRole
+                }
+              },
+              {
+                name: 'ItemBasic',
+                props: {
+                  item: personalDetails.education
+                }
+              },
+              {
+                name: 'ItemExperience',
+                props: {
+                  experience: `${personalDetails.experience}`
+                }
               }
-            },
-            {
-              name: 'ItemBasic',
-              props: {
-                item: personalDetails.education
-              }
-            },
-            {
-              name: 'ItemExperience',
-              props: {
-                experience: `${personalDetails.experience}`
-              }
-            }
-          ]"
-        />
-      </b-card-text>
-    </b-card>
+            ]"
+          />
+        </b-card-text>
+      </b-card>
+    </div>
   </div>
 </template>
 
